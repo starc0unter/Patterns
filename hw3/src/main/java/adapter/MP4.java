@@ -1,4 +1,7 @@
 package adapter;
 
-public class MP4 {
+public class MP4 implements MediaPackage {
+    public void playFile(String filename) {
+        System.out.println("Playing MP4 File " + filename);
+    }
 }
